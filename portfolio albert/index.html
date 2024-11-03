@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bentos - Creative Portfolio Showcase Template">
+    <meta name="keywords" content="personal, portfolio new, html, one page, bootstrap, new html template, design, creative, onepage, clean, modern">
+    <meta name="author" content="Tanvir Hossain">
+    <!-- PAGE TITLE -->
+    <title>Kombaté Yentchabré - Portfolio</title>
+    <!-- FAV ICON -->
+    <link rel="apple-touch-icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="assets/images/profile.png">
+    <!-- ALL GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css" />
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- NICE SELECT CSS -->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css" />
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
+    <!-- SPACING CSS -->
+    <link rel="stylesheet" href="assets/css/spacing.css" />
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- START PRELOADER AREA-->
+    <div class="preloader">
+        <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="preloader-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+    <!-- END PRELOADER AREA -->
+    <!-- START MENU DESIGN AREA -->
+    <header class="main-header">
+        <div class="header-upper">
+            <div class="container">
+                <div class="header-inner d-flex align-items-center">
+                    <!-- START LOGO DESIGN AREA -->
+                    <div class="logo-outer">
+                        <div class="logo">
+                            <a href="index.html">Kombaté</a>
+                        </div>
+                    </div>
+                    <!-- / END LOGO DESIGN AREA -->
+                    <!-- START NAV DESIGN AREA -->
+                    <div class="nav-outer clearfix mx-auto">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-lg">
+                            <div class="navbar-header">
+                                <div class="mobile-logo">
+                                    <a href="index.html">
+                                        Kombaté
+                                    </a>
+                                </div>
+                                <!-- Toggle Button -->
+                                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="navigation onepage clearfix">
+                                    <li><a class="nav-link-click" href="index.html">Welcome to my portfolio</a></li>
+                                    <!--<li><a class="nav-link-click" href="#">about</a></li>
+                                    <li><a class="nav-link-click" href="#">services</a></li>
+                                    <li><a class="nav-link-click" href="#">works</a></li>
+                                    <li><a class="nav-link-click" href="#">Contact</a></li>-->
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- / END NAV DESIGN AREA -->
+                    </div>
+                    <div class="menu-btns">
+                        <a href="https://wa.me/22891344730" target="_blank" class="theme-btn">Hire Me<i class="ri-shake-hands-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- / END MENU DESIGN AREA -->
+    <!-- START ABOUT DESIGN AREA -->
+    <section id="about" class="about-area">
+        <div class="container">
+            <div class="row">
+                <!-- START ABOUT IMAGE DESIGN AREA -->
+                <div class="col-lg-4">
+                    <div class="about-image-part wow fadeInUp delay-0-3s">
+                        <img src="data:image/jpeg;base64,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" alt="About Me" />
+                        <h2>KOMBATÉ Yentchabré</h2>
+                        <p>DESIGNER</p>
+                        <div class="about-social text-center">
+                            <ul>
+                                <li><a href="https://www.facebook.com/profile.php?id=100008440801135" target="_blank"><i class="ri-facebook-circle-fill"></i></a></li>
+                                <li><a href="https://pin.it/3JZWkJlrH" target="_blank"><i class="ri-pinterest-line"></i></a></li>
+                                <!--<li><a href=""><i class="ri-twitter-x-line"></i></a></li>-->
+                                <li><a href="https://tg.linkedin.com/in/albinstar-marcus-70410a25b" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                                <li><a href="https://www.instagram.com/albinstarmarcus?igsh=MTJ5emo4aXlqcWhjNg==" target="_blank"><i class="ri-instagram-line"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- / END ABOUT IMAGE DESIGN AREA -->
+                <!-- START ABOUT TEXT DESIGN AREA -->
+                <div class="col-lg-8">
+                    <div class="about-content-part wow fadeInUp delay-0-2s">
+                        <p>Hello!</p>
+                        <h2>
+                            je suis graphiste createur d’identité visuelle, de logo,  carte, flyer, affiche publicitaire et autres avec 2 ans d’expérience dans le domaine du graphisme.
+
+                        </h2>
+                        <div class="adress-field">
+                            <ul>
+                                <li><i class="spinner-grow spinner-grow-sm" aria-hidden="true"></i>Available for Freelancing</li>
+                            </ul>
+                        </div>
+                        <div class="hero-btns">
+                            <a href="assets/images/CV albinstar-1.pdf" class="theme-btn" download>Download CV <i class="ri-download-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-content-part-bottom wow fadeInUp delay-0-2s">
+                        <h2>En tant que graphiste, jai les compétences nécessaires pour utiliser les logiciels tels que:
+                            Adobe photoshop
+                            Coreldraw
+                            Figma
+                            </h2>
+                        <div class="company-list">
+                            <div class="scroller" data-direction="left" data-speed="slow">
+                               <!--meetre des image s ici--> 
+                                <div class="scroller__inner">
+                                    <a href="https://fsrobotics.co.uk/" target="_blank"><img src="data:image/png;base64,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" alt="" style="width: 120px;"/></a>
+                                    <a href="https://www.cmedialinks.com/" target="_blank"><img src="data:image/png;base64,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" alt="" style="width: 120px;"/></a>
+                                    <a href="https://www.cmedialinks.com/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHCR5wN70ZFn0cd4HPgm1VVR6UDRyOPZTBA&s"alt="" style="width: 120px;"/></a>
+
+                                    <!--<img src="assets/images/client-logos/partner3.png" alt="" />
+                                    <img src="assets/images/client-logos/partner4.png" alt="" />
+                                    <img src="assets/images/client-logos/partner5.png" alt="" />-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / END ABOUT TEXT DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END ABOUT DESIGN AREA -->
+    <!-- START PORTFOLIO DESIGN AREA -->
+    <section id="portfolio" class="projects-area">
+        <div class="container">
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="section-title text-center wow fadeInUp delay-0-2s">
+                            <h2>Travaux & Projects </h2>
+                            <p>J'ai déja travail avec quelques structure de la place. voici quelque un de mes Travaux realiser lor de notre colaboration sur leur project
+                        
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="project-filter filter-btns-one justify-content-left pb-15 wow fadeInUp delay-0-2s">
+                    <!-- <li data-filter="*" class="current">Show All</li> -->
+                    <!-- <li data-filter=".webapp">Web App</li> -->
+                    <li data-filter=".design">Design</li>
+                    <!-- <li data-filter=".cms">CMS</li> -->
+                </ul>
+                <div class="row project-masonry-active">
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <!-- <div class="col-lg-4 col-md-6 item webapp game">
+                        <div class="project-item style-two wow fadeInUp delay-0-3s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work1.jpg" alt="Project">
+                                <a href="https://postitvianneyyovo.netlify.app/" target="_blank" class="details-btn"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <!-- <div class="project-content">
+                                <span class="sub-title">Web App</span>
+                                <h3>Post It Wep App</h3>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-lg-4 col-md-6 item webapp game">
+                        <div class="project-item style-two wow fadeInUp delay-0-3s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work7.jpg" alt="Project">
+                                <a href="https://miaflix.netlify.app/" target="_blank" class="details-btn"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">Web App</span>
+                                <h3>Application de streaming</h3>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- START PORTFOLIO DESIGN AREA -->
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <!-- <div class="col-lg-4 col-md-6 item cms graphics">
+                        <div class="project-item style-two wow fadeInUp delay-0-4s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work2.jpg" alt="Project">
+                                <a href="https://fsrobotics.co.uk/" class="details-btn" target="_blank"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">CMS</span>
+                                <h3>CMS web site developpment</h3>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- / END SINGLE PORTFOLIO DESIGN AREA -->
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <!-- <div class="col-lg-4 col-md-6 item cms graphics">
+                        <div class="project-item style-two wow fadeInUp delay-0-5s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work3.jpg" alt="Project">
+                                <a href="#" target="_blank" class="details-btn work-popup"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">CMS</span>
+                                <h3>WordPress CMS template and pluging development</h3>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- / END SINGLE PORTFOLIO DESIGN AREA -->
+                   
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6 item design">
+                        <div class="project-item style-two wow fadeInUp delay-0-7s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work5.jpg" alt="Project">
+                                <a href="https://nawaari.com/service/logo/" target="_blank" class="details-btn popup-youtube"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">Design</span>
+                                <h3>Graphic design</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- START PORTFOLIO DESIGN AREA -->
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6 item design marketing graphics">
+                        <div class="project-item style-two wow fadeInUp delay-0-8s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work6.jpg" alt="Project">
+                                <a href="https://nawaari.com/service/ui-design-2/" target="_blank" class="details-btn popup-youtube"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">Design</span>
+                                <h3>UI & UX Design</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE PORTFOLIO DESIGN AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // END PORTFOLIO DESIGN AREA -->
+    <!-- START CALL TO ACTION DESIGN AREA -->
+    <section class="call-to-action-area">
+        <div class="container">
+            <div class="row">
+                <!-- START ABOUT TEXT DESIGN AREA -->
+                <div class="col-lg-12">
+                    <div class="call-to-action-part wow fadeInUp delay-0-2s text-center">
+                        <h2>Are You Ready to kickstart your project with a touch of magic?</h2>
+                        <p>Reach out and let's make it happen ✨. I'm also available for full-time or Part-time opportunities to push the boundaries of design and deliver exceptional work.</p>
+                        <div class="hero-btns">
+                         
+                            <a  href="https://wa.me/22891344730" target="_blank" class="theme-btn">Let's Talk <i class="ri-download-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- / END ABOUT TEXT DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!--  // END CALL TO ACTION DESIGN AREA -->
+    <!-- START FOOTER DESIGN AREA -->
+    <footer class="main-footer">
+        <div class="footer-bottom pt-50 pb-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="copyright-text">
+                            <p>
+                                Copyright @2024, <a href="https://fsrobotics.co.uk/" target="_blank">BigTech</a> All
+                                Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="copyright-text extra-copyright">
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / END FOOTER DESIGN AREA -->
+    <!-- START SCROOL UP DESIGN AREA -->
+    <div class="progress-wrap cursor-pointer">
+        <i class="ri-arrow-up-double-line"></i>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- / END SCROOL UP DESIGN AREA -->
+    <!-- JQUERY JS -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- BOOTSTRAP JS-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- APPEAR JS -->
+    <script src="assets/js/appear.min.js"></script>
+    <!-- GSAP JS -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- MAGNIFICANT JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- SLICK JS-->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- NICE SELECT JS-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- IMAGE LOADER JS-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- ISOTOPE JS-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--  WOW ANIMATION JS-->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- SCRIPT JS-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
